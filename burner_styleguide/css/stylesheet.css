@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: column;
     position: relative;
-
+    margin: 0;
 }
 
 /*background-color: #f6f6f6;*/
@@ -25,7 +25,6 @@ nav {
   border-color: #e2e2e2;
   border-top: 0;
   border-bottom: 0;
-
 }
 
 h2 {
