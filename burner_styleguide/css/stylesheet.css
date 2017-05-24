@@ -20,7 +20,7 @@ body {
 
 @font-face {
     font-family: 'avenirNext';
-    src: url('../fonts/Avenir/Avenir Next.eot');
+    src: url('../fonts/Avenir/Avenir Next.ttc');
 }
 /*background-color: #f6f6f6;*/
 
@@ -88,7 +88,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-#sub-menu .nav-links {
+.sub-menu .update-view {
   border:none;
   font-size: 1.4em;
   line-height: 1em;
@@ -113,11 +113,13 @@ li {
 }
 
 #Introduction div {
+  /*display: flex;*/
   width: 283.328px;
   height: 134.500px;
   padding: 0 15px;
-
 }
+
+
 
 p {
   font-size: 14px;
@@ -127,7 +129,6 @@ p {
   display: none;
 }
 
-/*#Introduction*/
 
 .color-grid {
   display: grid;
@@ -212,6 +213,18 @@ p {
   grid-column: 5;
   grid-row: 5;
 }
+
+.web-text {
+  display: grid;
+}
+
+
+
+
+
+
+
+
 
 
 
