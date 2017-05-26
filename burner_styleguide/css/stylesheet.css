@@ -6,22 +6,19 @@ body {
     justify-content: space-between;
     position: relative;
     margin: 0;
+    font-size: 16px;
+    font-weight: 300;
 
 }
 
-@font-face {
-  font-family: 'avenirNext';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+h1 {
+  font-size: 2em;
+  line-height: 1.6em;
 }
 
 @font-face {
     font-family: 'avenirNext';
-    src: url('../fonts/Avenir/Avenir Next.ttc');
+    src: url('../fonts/Avenir/AvenirNext-Regular.ttf');
 }
 /*background-color: #f6f6f6;*/
 
@@ -42,7 +39,8 @@ nav {
 }
 
 h2 {
-
+font-size: 1.6em;
+line-height: 1.2em;
 }
 
 .main-content {
@@ -50,7 +48,13 @@ h2 {
   margin-left: 290px;
 }
 
-
+#button {
+  background-color: #e45620;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4em;
+  line-height: 1em;
+}
 
 
 img {
