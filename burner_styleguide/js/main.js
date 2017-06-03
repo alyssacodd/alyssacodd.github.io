@@ -28,6 +28,6 @@ $('#overview, #visual-styles').on('click', function(e) {
 //   // Fade toggle the unordered list
 //   $('.sub-menu').fadeToggle(.1);
 // });
-$('.hamburger').on('click', function) {
-  $('ul').slideToggle(300);
-}
+// $('.hamburger').on('click', function) {
+//   $('ul').slideToggle(300);
+// }
